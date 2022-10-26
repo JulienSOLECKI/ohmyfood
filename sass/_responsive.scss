@@ -1,0 +1,48 @@
+    @media only screen and (min-width:1445px) {
+        main {
+            .functioning {
+                h2 {
+                    text-align: center;
+                }
+                ol {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px;
+                }
+            }
+            #restaurants h2 {
+                text-align: center;
+            }
+            .list__restaurants {
+                flex-direction: row;
+                gap: 25px;
+            }
+            .Card__restaurants {
+                .list__restaurants__new {
+                    left: 85%!important;
+                }
+            }
+        }
+    }
+    
+    footer {
+        .footer__container {
+            flex-direction: row;
+            align-items: center;
+            gap: 30%;
+            h4 {
+                font-size: 30px;
+            }
+            .footer__container__link {
+                flex-direction: row;
+                padding: 35px;
+                gap: 50%;
+                width: 100%;
+                .link__logo,
+                .link__nologo__container {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }

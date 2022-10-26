@@ -1,0 +1,46 @@
+main .functioning{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    font-family: $Font;
+    font-weight: 500;
+
+    h2{
+        margin-top: 30px;
+    }
+    ol li{
+        position: relative;
+        counter-increment: steps;
+        width: 80%;
+        background: #F6F6F6;
+        padding: 25px;
+        border-radius: 20px;
+        margin: 20px auto;
+
+        &:hover{
+            background-color: hsl(267, 66%, 95%);
+
+            i{
+                color: $Primaire;
+            }
+        }
+
+        &::before{
+            content: counter(steps);
+            position: absolute;
+            display: grid;
+            place-items: center;
+            left: -0.5rem;
+            width: 1.5rem;
+            height: 1.5rem;
+            border-radius: 50%;
+            background-color: $Primaire;
+            color: white;
+        }
+
+        i{
+            padding: 0 20px;
+            color: grey;
+        }
+    }
+}

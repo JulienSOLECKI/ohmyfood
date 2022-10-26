@@ -1,0 +1,42 @@
+footer{
+    .footer__container{
+        display: flex;
+        flex-direction: column;
+        background-color: #353535;
+        color: white;
+
+        h4{
+            font-family: $Font_Logo;
+            font-size: 25px;
+            margin: 20px 0 5px 20px;
+        }
+
+        .footer__container__link{
+            font-family: $Font;
+            display: flex;
+            flex-wrap: wrap; 
+            flex-direction: column;
+            padding-bottom: 20px;
+            margin-left: 20px;
+
+            a{
+                color: white;
+            }
+
+            .footer_logo{
+                margin-right: 10px;
+            }
+            
+            li{
+                margin-top: 8px;
+            }
+
+            .link__logo-2 a{
+                margin-left: -4px;
+            }
+            .footer__logo {
+                margin-right: 5px;
+            }
+        }
+    }
+}

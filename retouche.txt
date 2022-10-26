@@ -1,0 +1,2 @@
+svg color white footer
+ajouter wrapper
